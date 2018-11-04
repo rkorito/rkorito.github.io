@@ -102,4 +102,10 @@ ul li::before {
 	float: ;
 	margin: 0px;
 }
+
+.video {
+	display: block;
+	margin: center;
 	
+
+}
