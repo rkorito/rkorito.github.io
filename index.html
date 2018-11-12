@@ -6,10 +6,33 @@
 <title>Hobby</title>
 
 <link href="stylesheet.css" rel="stylesheet" type="text/css">
-	
-</head>
 
 <body>
+<div id="display"></div>
+ 
+<script>
+document.getElementById('display').innerHTML = 'Hello Rhea';
+</script>
+
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+ctx.stroke();
+</script>
+
 	<div id="container">
 		<div id="header">
 			
@@ -82,7 +105,6 @@
 	<source src="audio/audio.ogg">
 	<source src="audio/audio.wav">
 
-	
 		<div id="footer">
 		Rhea Korito 2018 Internet Fundamentals
 	</div>
