@@ -159,7 +159,7 @@ a:hover {
 		padding-left: 2em;
 	}
 	
-	nav a, nav ul {
+	nav a {
 		padding: 0.2em;
 		margin-left: 0.3em;
 		float: left;
@@ -171,7 +171,7 @@ a:hover {
 		padding-right: 2em;
 	}
 	
-	ul{
+	main ul{
 		margin: 2em;
 	}
 	
@@ -208,7 +208,7 @@ a:hover {
 		text-align: center;
 	}
 	
-	nav a, nav ul {
+	nav a {
 		padding: 0.5em;
 		width: 45%;
 		float: left;
