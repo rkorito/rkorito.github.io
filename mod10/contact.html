@@ -32,19 +32,22 @@ content="width=device-width, initial-scale=1.0">
 
 <form method="post" action="http://webdevbasics.net/scripts/yoga.php">
 
-* Name: <input type="text" name="myName" id="myName" required="required"> <label for="myName"><br><br>
+<label for="myName">* Name: <input type="text" name="myName" id="myName" required="required"> </label>
 
-* Email: <input type="text" name="myEmail" id="myEmail" required="required"> <label for="myEmail"><br><br>
+<label for="myEmail">* Email: <input type="text" name="myEmail" id="myEmail" required="required"> </label>
 
-How did you hear about us?<br><br>
-<input type="radio" name="fav" id="favCH" value="CH"> Google Chrome<br>
-<input type="radio" name="fav" id="favBI" value="BI"> Bing<br>
-<input type="radio" name="fav" id="favFB" value="FB"> Facebook<br>
-<input type="radio" name="fav" id="favFR" value="FR"> Friend<br>
-<input type="radio" name="fav" id="favRA" value="RA"> Radio Ad<br><br>
+<label for="How did you hear about us?">How did you hear about us?</label>
+<input type="text" name="info" id="info" list="options">
+<datalist id="options">
+<option>Google</option>
+<option>Bing</option>
+<option>Facebook</option>
+<option>Friend</option>
+<option>Radio Ad</option>
+</datalist>
 
-* Comments:<br><br>
-<textarea name="cm" id="cm" cols="20" rows="2" required="required">Enter comments</textarea><label for="myComments"><br><br>
+<label for="myComments">* Comments:</label>
+  <textarea name="cm" id="cm" cols="20" rows="2" required="required">Enter comments</textarea>
 
 <input type="submit" value="Send Now">
 
